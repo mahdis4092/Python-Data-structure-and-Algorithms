@@ -68,4 +68,44 @@ def rotate_array(arr,n,d):
 arr=[1,2,3,4,5,6,7]
 print("Array after left rotation : ",end=" ")
 print(rotate_array(arr,len(arr),3))
+
+
 '''
+A = []
+n=int(input())
+for i in range(0, n):
+    j = input().split()
+    cout = 0
+
+    if j.count('1') >= 2:
+        cout += 1
+        A.append(cout)
+print(sum(A))
+
+#print(final_count)
+        #print(final_count)
+   # matrix.append(A)
+
+
+#print(final_count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+       # if A[j]==1:
+          #  count+=1
+
+
+
+  #  x=int(input())
+   # A.append(x)
+#print(A)
