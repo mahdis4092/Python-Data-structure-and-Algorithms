@@ -15,7 +15,7 @@ Condition for Principal Diagonal: The row-column condition is row = column.
 The secondary diagonal is formed by the elements A03, A12, A21, A30.
 Condition for Secondary Diagonal: The row-column condition is row = numberOfRows – column -1.
 Time Complexity: O(n2), As there is a nested loop involved so the time complexity is squared.
-Auxiliary Space: O(1). 
+Auxiliary Space: O(1).
 '''
 def primary_diagonal(M,n):
     print("Primary Diagonal : ", end="")
