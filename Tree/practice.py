@@ -37,7 +37,8 @@ class Binarytree:
             return self.get_min_value(self.root)
     def get_min_value(self,node):
         if node.left_node:
-            self.get_min_value(node.left_node)
+            return self.get_min_value(node.left_node)
+
         return node.data
 
     def get_max(self):
@@ -47,7 +48,8 @@ class Binarytree:
 
     def get_max_value(self, node):
         if node.right_node:
-            self.get_max_value(node.right_node)
+            return self.get_max_value(node.right_node)
+
         return node.data
 
     def traverse(self):
@@ -70,7 +72,11 @@ if __name__ == '__main__':
     bst.insert(12)
     bst.insert(15)
 
+    bst.get_max()
+
     bst.traverse()
+    bst.get_max()
+
 
 
 
